@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .favorito{
+      display: grid;
+      border: 3px solid rgb(106, 220, 236);
+      padding: 10px;
+      right: auto;
+      width: auto;
+      border-radius: 40px;
+      background: rgb(9, 148, 132);
+    }
+    #usuario{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <input type="text" id="nome" placeholder="nome">
+
+  <input type="text" id="cidade" placeholder="cidade">
+
+  <input type="tel" id="telefone" placeholder="telefone">
+
+  <button onclick="cadastrar()">cadastrar</button>
+
+
+  <input 
+  type="text"
+  id="buscar"
+  placeholder="buscar"
+  oninput="bucarCliente()">
+
+<div id="usuario"></div>
+
+  
+  </script>
+</body>
+</html>
